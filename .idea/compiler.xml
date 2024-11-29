@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FollowMS" />
+        <module name="UserMS" />
+        <module name="MediaMS" />
+        <module name="GatewayMS" />
+        <module name="TweetMS" />
+        <module name="SearchMS" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FollowMS" options="-parameters" />
+      <module name="GatewayMS" options="-parameters" />
+      <module name="MediaMS" options="-parameters" />
+      <module name="SearchMS" options="-parameters" />
+      <module name="TweetMS" options="-parameters" />
+      <module name="UserMS" options="-parameters" />
+    </option>
+  </component>
+</project>
