@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: UserMS
+  data:
+    mongodb:
+      uri: mongodb+srv://abijakkam:abhi%40123@cluster1.tjmup.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+      database: userdb
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        hostname: localhost
+      config:
+        enabled: false
+server:
+  port: 8100
